@@ -1,5 +1,3 @@
-import {Schema,model,connect} from 'mongoose'
-
 export type UserName = {
   firstName: string;
   middleName: string;
@@ -29,7 +27,7 @@ export type Student = {
   gender:"male"|"female";
   dateOfBirth: string;
   email: string;
-  contactNumber: string;
+  contactNo: string;
   emergencyContactNo: string;
   bloodGroup?: 'A+' | 'A-' | 'B+' | 'B-' | 'AB+' | 'AB-' | 'O+' | 'O-';
   presentAddress: string;
